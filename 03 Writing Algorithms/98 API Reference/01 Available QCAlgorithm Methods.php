@@ -725,7 +725,7 @@
 </tr>
 <tr>
 <td width="33%"><a href="#STO-header">STO()</a></td>
-<td>Creates a new Stochastic indicator.</td>
+<td>Overload short hand to create a new Stochastic indicator; defaulting to the 3 period for dStoch</td>
 </tr>
 <tr>
 <td width="33%"><a href="#StopLimitOrder-header">StopLimitOrder()</a></td>
@@ -1433,7 +1433,7 @@
 </tr>
 <tr>
 <td width="33%"><a href="#STO-header">STO()</a></td>
-<td>Creates a new Stochastic indicator.</td>
+<td>Overload short hand to create a new Stochastic indicator; defaulting to the 3 period for dStoch</td>
 </tr>
 <tr>
 <td width="33%"><a href="#STR-header">STR()</a></td>
