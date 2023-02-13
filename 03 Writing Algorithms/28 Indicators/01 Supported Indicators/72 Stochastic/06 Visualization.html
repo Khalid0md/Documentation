@@ -7,7 +7,7 @@
 
 // In Initialize()
 var symbol = AddEquity("SPY").Symbol;
-_sto = STO(symbol, period);
+_sto = STO(symbol, period, kPeriod, dPeriod);
 
 // In OnData()
 if (_sto.IsReady)
@@ -19,7 +19,7 @@ if (_sto.IsReady)
 }</pre>
     <pre class="python"># In Initialize()
 symbol = self.AddEquity("SPY").Symbol
-self.sto = self.STO(symbol, period)
+self.sto = self.STO(symbol, period, kPeriod, dPeriod)
 
 # In OnData()
 if self.sto.IsReady:
